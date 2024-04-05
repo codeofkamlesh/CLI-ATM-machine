@@ -1,0 +1,24 @@
+{
+  "name": "@kamleshkumar/atm-project-cli",
+  "version": "2.3.4",
+  "description": "this is my third project cli ATM machine",
+  "main": "main.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public" },
+  "bin": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kamlesh kumar",
+  "license": "ISC",
+  "dependencies": {
+    "@kamleshkumar/cli-atm-machine": "^2.1.1",
+    "inquirer": "^9.2.17",
+    "kamlesh-cli-atm-machine": "^3.1.2",
+    "kamleshkumar-cli-atm-machine": "^3.2.2"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
